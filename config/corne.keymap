@@ -56,9 +56,15 @@
         default_layer {
                 display-name = "Base";
                 bindings = <
-              &kp Q     &kp W     &kp F &kp P &kp B              &kp J    &kp L  &kp U     &kp Y     &kp SEMI
+    &kp Q      &kp W      &kp F      &kp P      &kp B             &kp J      &kp L      &kp U      &kp Y      &kp SEMI
+    &hml LGUI A &hml LALT R &hml LCTRL S &kp T &kp G             &kp M      &kp N      &hmr RCTRL E &hmr RALT I &hmr RGUI O
+    &kp X      &kp C      &kp D      &kp V      &kp Z             &kp K      &kp H      &kp SQT    &kp SEMI   &kp LBKT
+                  &kp LGUI   &lt 1 SPACE   &kp LSHIFT          &kp RET    &lt 2 BSPC &kp BSPC
+                >;
+                bindings = <
+              &kp Q       &kp W       &kp F &kp P     &kp B              &kp J    &kp L  &kp U     &kp Y     &kp SEMI
               &hml LGUI A &hml LALT R &hml LCTRL S &kp T &kp G              &kp M    &kp N  &hmr RCTRL E     &hmr RALT I     &hmr RGUI O
-              &kp X &kp C &kp D &kp V &kp Z              &kp K    &kp H  &kp SQT &kp SEMI   &kp LBKT // Note: Changed CTRL/META/. to Colemak-DH , . /
+              &kp X &kp C &kp D &kp V &kp Z              &kp K    &kp H  &kp SQT &kp SEMI   &kp LBKT
                     &kp LGUI &lt 1 SPACE &kp LSHIFT            &kp RET  &lt 2 BSPC &kp BSPC
                           >;
         };
