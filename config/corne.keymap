@@ -73,7 +73,7 @@
     &trans &trans &trans &trans &trans             &trans &trans &trans &trans &trans
     &trans &trans &trans &trans &trans             &trans &trans &trans &trans &trans
     &trans &trans &trans &trans &trans             &trans &trans &trans &trans &trans
-                  &kp LGUI &trans &kp SPACE            AS(RET)   &kp ESC &kp TAB
+                 &kp LGUI &trans &kp SPACE            &trans   &kp ESC &kp TAB
                 >;
 
                 raise_layer {
@@ -82,12 +82,12 @@
 // | -_ |  =+ |  {  |  [  |  (  |     |  )  |  ]  |  }  |  /?  |  \|  |
 // | `~ |     |     |  ,< |  :  |     |  ;  |  .> | CTRL| META |      |
 //            | GUI | ESC | SPC |     | ENT |     | TAB |
-                display-name = "Lower";
+                display-name = "Raise";
                 bindings = <
     &trans &trans &trans &trans &trans             &trans &trans &trans &trans &trans
     &trans &trans &trans &trans &trans             &trans &trans &trans &trans &trans
     &trans &trans &trans &trans &trans             &trans &trans &trans &trans &trans
-                  &kp LGUI &trans &kp SPACE            AS(RET)   &kp ESC &kp TAB
+                  &kp LGUI &trans &kp SPACE           &trans &kp ESC &kp TAB
                 >;
                 extra_1 {
                         status = "reserved";
