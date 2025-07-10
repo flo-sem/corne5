@@ -48,7 +48,7 @@
             display-name = "Base";
             bindings = <
                 &none       &kp Q           &kp W           &kp F           &kp P           &kp B                   &kp J           &kp U           &kp L           &kp Z           &kp MINUS       &kp BSPC
-                &kp TAB     &hml LGUI A     &hml LALT R     &hml LCTRL S    &kp T           &kp G                   &kp M           &kp T           &hmr RCTRL E    &hmr RALT I     &hmr RGUI O     &none
+                &kp TAB     &hml LGUI A     &hml LALT R     &hml LCTRL S    &kp T           &kp G                   &kp M           &kp N           &hmr RCTRL E    &hmr RALT I     &hmr RGUI O     &none
                 &kp LSHFT   &kp Y           &kp X           &kp C           &kp D           &kp V                   &kp K           &kp H           &kp SCLN        &kp LBRC        &kp QUOT        &kp RSHIFT
                                                             &kp LGUI        &mo 1           &kp SPACE               &kp BSPC        &mo 2           &kp RALT
             >;
@@ -57,9 +57,9 @@
         layer_1 {
            display-name = "Layer1";
            bindings = <
-                &kp TAB     &kp K_VOLD      &kp K_VOLU      &kp K_PREV      &kp K_NEXT      &kp N5                  &kp END         &kp PG_UP       &kp PG_DN       &kp HOME        &trans          &trans
-                &kp LCTRL   &none           &none           &kp C_COPY      &kp C_PASTE     &none                   &trans          &kp RIGHT       &kp UP          &kp DOWN        &kp LEFT        &trans
-                &kp LSHFT   &none           &none           &kp F5          &kp F2          &none                   &none           &none           &none           &kp DEL         &kp ESC         &none
+                &kp TAB     &kp K_VOL_DN    &kp K_VOL_UP    &trans          &trans          &kp N5                  &trans          &kp END         &kp PG_UP       &kp PG_DN       &kp HOME        &trans
+                &kp LCTRL   &none           &none           &trans          &trans          &none                   &trans          &kp RIGHT       &kp UP          &kp DOWN        &kp LEFT        &trans
+                &kp LSHFT   &none           &none           &kp F5          &kp F2          &none                   &none           &kp DEL         &kp ESC         &none           &none           &none
                                                             &kp LGUI        &trans          &kp SPACE               &kp BSPC        &mo 3           &kp RALT
             >;
         };
