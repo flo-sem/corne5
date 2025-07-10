@@ -57,7 +57,7 @@
             bindings = <
                 &none       &kp Q           &kp W           &kp F           &kp P           &kp B                   &kp J           &kp U           &kp L           &kp Z           &kp MINUS       &kp BSPC
                 &kp TAB     &hml LGUI A     &hml LALT R     &hml LCTRL S    &kp T           &kp G                   &kp M           &kp T           &hmr RCTRL E    &hmr RALT I     &hmr RGUI O     &none
-                &kp LSHFT   &kp Y           &kp X           &kp C           &kp D           &kp V                   &kp K           &kp H           &kp SCLN        &kp LBRC        &kp QUOT        &kp RSHIFT
+                &kp LSHFT   &kp Y           &kp X           &kp C           &kp D           &kp V                   &kp K           &kp H           &kp SCLN        &kp LBRC        &kp QUOT        &kp RSHIFT 
                                                             &kp LGUI        &mo 1           &kp SPACE               &kp BSPC        &mo 2           &kp RALT
             >;
         };
@@ -97,6 +97,7 @@
                                                             &trans          &trans          &trans                  &trans          &trans          &trans
             >;
         };
+
         layer_3 {
         // -----------------------------------------------------------------------------------------------------------------------------------
         // | RESET  | NO KEY | NO KEY | NO KEY | NO KEY | NO KEY | | NO KEY | NO KEY | NO KEY | NO KEY | NO KEY | NO KEY  |
@@ -108,11 +109,19 @@
         // | NO KEY | NO KEY | NO KEY |  LGUI  | TRANS  |  SPC   | | NO KEY | TRANS  | RALT   |  ENT   | NO KEY | NO KEY  |
         // -----------------------------------------------------------------------------------------------------------------------------------
             bindings = <
-                &bootloader &none           &none           &none           &none           &none                       &none           &none           &none           &none           &none           &none
-                &none       &none           &none           &none           &none           &none                       &none           &none           &none           &none           &none           &none
-                &none       &none           &none           &none           &none           &none                       &none           &none           &none           &none           &none           &none
-                                                            &kp LGUI        &trans          &kp SPACE                   &none           &trans          &kp RALT
+                &bootloader &none           &none           &none           &none           &none                   &none           &none           &none           &none           &none           &none
+                &none       &none           &none           &none           &none           &none                   &none           &none           &none           &none           &none           &none
+                &none       &none           &none           &none           &none           &none                   &none           &none           &none           &none           &none           &none
+                &none       &none           &none           &kp LGUI        &trans          &kp SPACE               &none           &trans          &kp RALT        &kp RET         &none           &none
             >;
+        };
+
+        extra_2 {
+                status = "reserved";
+        };
+
+        extra_3 {
+                status = "reserved";
         };
     };
 };
