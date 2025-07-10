@@ -36,13 +36,13 @@
             bindings = <&kp>, <&kp>;
             hold-trigger-on-release;
         };
-    };
+
+
+                 
 
          keymap {
                 compatible = "zmk,keymap";
 
-keymap {
-        compatible = "zmk,keymap";
 
         default_layer {
         // -----------------------------------------------------------------------------------------------------------------------------------
@@ -61,7 +61,7 @@ keymap {
                                                             &kp LGUI        &mo 1           &kp SPACE               &kp BSPC        &mo 2           &kp RALT
             >;
         };
-yjj
+
         layer_1 {
         // -----------------------------------------------------------------------------------------------------------------------------------
         // |  TAB   | VOLDWN | VOLUP  | MPRV   | MNXT   |   5    | | END    | PGUP   | PGDN   |  HOME  | TRANS  | TRANS   |
