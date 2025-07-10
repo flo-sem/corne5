@@ -39,7 +39,6 @@
 
     };
 
-                 
 
     keymap {
         compatible = "zmk,keymap";
@@ -115,13 +114,14 @@
                 &none       &none           &none           &none           &none           &none                   &none           &none           &none           &none           &none           &none
                 &none       &none           &none           &kp LGUI        &trans          &kp SPACE               &none           &trans          &kp RALT        &kp RET         &none           &none
             >;
-
-                extra_2 {
-                        status = "reserved";
-                };
-
-                extra_3 {
-                        status = "reserved";
-                };
         };
+
+        extra_2 {
+                status = "reserved";
+        };
+
+        extra_3 {
+                status = "reserved";
+        };
+    };
 };
