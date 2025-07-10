@@ -37,11 +37,12 @@
             hold-trigger-on-release;
         };
 
+    };
 
                  
 
-         keymap {
-                compatible = "zmk,keymap";
+    keymap {
+        compatible = "zmk,keymap";
 
 
         default_layer {
