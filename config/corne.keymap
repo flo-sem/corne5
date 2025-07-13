@@ -11,6 +11,14 @@
 #include <dt-bindings/zmk/behaviors.h>
 
 / {
+
+    kscan {
+       compatible = "zmk,kscan-gpio-matrix";
+       diode-direction = "col2row";
+       wakeup-source;
+    };
+
+
     chosen {
         zmk,physical-layout = &foostan_corne_6col_layout;
     };
